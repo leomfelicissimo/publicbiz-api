@@ -1,0 +1,22 @@
+{
+  "name": "publicbiz-api-v3",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "serve": "npm run build && node src/Server.bs.js"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^5.0.4"
+  },
+  "dependencies": {
+    "bs-express": "^0.12.0",
+    "mongodb": "^3.2.4"
+  }
+}
