@@ -1,4 +1,4 @@
-# PublicBiz Api v3 (Reason)
+# PublicBiz Api
 
 Esta Api foi criada com o objetivo de conhecer a linguagem ReasonML e sua utilização expondo uma WebApi real com conexão em um repositório de dados.
 
